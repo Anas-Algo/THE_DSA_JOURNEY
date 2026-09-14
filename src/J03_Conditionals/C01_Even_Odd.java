@@ -1,0 +1,17 @@
+package J03_Conditionals;
+
+import java.util.Scanner;
+public class C01_Even_Odd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number to check it is even or odd: ");
+        int num = sc.nextInt();
+        if(num % 2 == 0){
+            System.out.println("Even Number");
+        }
+        else{
+            System.out.println("Odd Number");
+        }
+    }
+
+}
